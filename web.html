@@ -17,6 +17,9 @@
   <script src="./bootstrap/js/bootstrap.min.js"></script>
 
   <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="./css/page_style.css">
+
+  <script src="./js/page.js"></script>
   <!--<link rel="stylesheet" href="./css/checkboxes.css">-->
 
 </head>
@@ -172,17 +175,84 @@
         </div>
       </div>
 
-      <div class="row">                                           <!--second row of middle content-->
+
+      <!--page 1-->
+
+      <div class="row" id="#p1">                                           <!--second row of middle content-->
         <div class="col-sm-6 col-md-6 col-lg-6">                  <!--1st column of second row-->
-          <div class="content-row2" id="con-row2-col1">1st column of second row</div>
+          <div class="content-row2" id="p1-con-row2-col1">page 1 1st column of second row</div>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-6">                  <!--2nd column of second row-->
-          <div class="content-row2" id="con-row2-col2">2nd column of second row</div>
+          <div class="content-row2" id="p1-con-row2-col2">page 1 2nd column of second row</div>
         </div>
       </div>
+
+
+      <!--page 2-->
+      <div class="row" id="#p2">                                           <!--second row of middle content-->
+        <div class="col-sm-6 col-md-6 col-lg-6">                  <!--1st column of second row-->
+          <div class="content-row2" id="p2-con-row2-col1">page 2 1st column of second row</div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">                  <!--2nd column of second row-->
+          <div class="content-row2" id="p2-con-row2-col2">page 2 2nd column of second row</div>
+        </div>
+      </div>
+
+
+      <!--page 3-->
+      <div class="row" id="#p3">                                           <!--second row of middle content-->
+        <div class="col-sm-6 col-md-6 col-lg-6">                  <!--1st column of second row-->
+          <div class="content-row2" id="p3-con-row2-col1">page 3 1st column of second row</div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">                  <!--2nd column of second row-->
+          <div class="content-row2" id="p3-con-row2-col2">page 3 2nd column of second row</div>
+        </div>
+      </div>
+
+
+      <!--page 4-->
+      <div class="row" id="#p4">                                           <!--second row of middle content-->
+        <div class="col-sm-6 col-md-6 col-lg-6">                  <!--1st column of second row-->
+          <div class="content-row2" id="p4-con-row2-col1">page 4 1st column of second row</div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">                  <!--2nd column of second row-->
+          <div class="content-row2" id="p4-con-row2-col2">page 4 2nd column of second row</div>
+        </div>
+      </div>
+
+
+      <!--page 5-->
+      <div class="row" id="#p5">                                           <!--second row of middle content-->
+        <div class="col-sm-6 col-md-6 col-lg-6">                  <!--1st column of second row-->
+          <div class="content-row2" id="p5-con-row2-col1">page 5 1st column of second row</div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">                  <!--2nd column of second row-->
+          <div class="content-row2" id="p5-con-row2-col2">page 5 2nd column of second row</div>
+        </div>
+      </div>
+
     </div>
   </div>
+
+  <!--page numbers-->
+
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12" id="paging">
+      <ul id="page" class="clearfix">
+        <a href="#p1" onclick="selection('page1')"><li id="page1"></li></a>
+        <a href="#p2" onclick="selection('page2')"><li id="page2"></li></a>
+        <a href="#p3" onclick="selection('page3')"><li id="page3"></li></a>
+        <a href="#p4" onclick="selection('page4')"><li id="page4"></li></a>
+        <a href="#p5" onclick="selection('page5')"><li id="page5"></li></a>
+      </ul>
+    </div>
+  </div>
+
 </div>
+
+<!--Pages-->
+
+
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
@@ -190,5 +260,6 @@
   </a>
   <p>Copyright 2017 Best 'O' Mania | All rights reserved.<a href="#myPage"><br>BEST 'O' MANIA</a></p>
 </footer>
+
 </body>
 </html>
