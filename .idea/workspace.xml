@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23bea9b6-08e1-4446-8ad7-f75c747cfe6e" name="Default" comment="3rd commit after page numbers">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/page_style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web.html" afterPath="$PROJECT_DIR$/web.html" />
+    <list default="true" id="23bea9b6-08e1-4446-8ad7-f75c747cfe6e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="scrapping.iws" />
@@ -314,6 +310,13 @@
       <option name="number" value="Default" />
       <updated>1490118447503</updated>
     </task>
+    <task id="LOCAL-00001" summary="3rd commit after page numbers">
+      <created>1490558009606</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1490558009606</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
